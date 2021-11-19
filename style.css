@@ -1,0 +1,64 @@
+.menu {
+    position: absolute;
+    font-family: cursive;
+    list-style: none;
+    z-index: 10px;
+    cursor: pointer;
+    right: 30px;
+    top: 10px;
+}
+
+.link {
+    display: inline;
+    font-family: cursive;
+    color: red;
+    font-size: 20px;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+body {
+    text-align: center;
+    padding-top: 100px;
+    background: linear-gradient(skyblue, pink);
+}
+
+img {
+    width: 280px;
+    border-radius: 0;
+}
+
+#Heading {
+    font-size: 30px
+}
+
+#text {
+    font-style: italic;
+    color: black;
+    font-size: 35px;
+    padding-bottom: 70px;
+}
+
+.line {
+    padding: 50px;
+    text-align: center;
+    height: 10px;
+    width: 110px;
+}
+
+l {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
